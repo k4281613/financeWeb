@@ -1,0 +1,215 @@
+[
+  {
+    "name": "index",
+    "path": "/",
+    "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "children": [
+      {
+        "name": "index-essence",
+        "path": "essence",
+        "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\essence.vue",
+        "chunkName": "pages/index/essence",
+        "children": [
+          {
+            "name": "index-essence-counselor",
+            "path": "counselor",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\essence\\\\counselor.vue",
+            "chunkName": "pages/index/essence/counselor",
+            "_name": "_69958718"
+          },
+          {
+            "name": "index-essence-hotnew",
+            "path": "hotnew",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\essence\\\\hotnew.vue",
+            "chunkName": "pages/index/essence/hotnew",
+            "_name": "_0b113ea3"
+          },
+          {
+            "name": "index-essence-hotnewDetail",
+            "path": "hotnewDetail",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\essence\\\\hotnewDetail.vue",
+            "chunkName": "pages/index/essence/hotnewDetail",
+            "_name": "_627ba358"
+          },
+          {
+            "name": "index-essence-hotnotice",
+            "path": "hotnotice",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\essence\\\\hotnotice.vue",
+            "chunkName": "pages/index/essence/hotnotice",
+            "_name": "_e30861b6"
+          },
+          {
+            "name": "index-essence-hotStock",
+            "path": "hotStock",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\essence\\\\hotStock.vue",
+            "chunkName": "pages/index/essence/hotStock",
+            "_name": "_9d8bdb8e"
+          },
+          {
+            "name": "index-essence-reply_comment_hotDetail",
+            "path": "reply_comment_hotDetail",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\essence\\\\reply_comment_hotDetail.vue",
+            "chunkName": "pages/index/essence/reply_comment_hotDetail",
+            "_name": "_59b958c9"
+          },
+          {
+            "name": "index-essence-SevenMultiptDay",
+            "path": "SevenMultiptDay",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\essence\\\\SevenMultiptDay.vue",
+            "chunkName": "pages/index/essence/SevenMultiptDay",
+            "_name": "_2c1f356c"
+          },
+          {
+            "name": "index-essence-snowhotnew",
+            "path": "snowhotnew",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\essence\\\\snowhotnew.vue",
+            "chunkName": "pages/index/essence/snowhotnew",
+            "_name": "_49b1fc66"
+          },
+          {
+            "name": "index-essence-SnowTalking",
+            "path": "SnowTalking",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\essence\\\\SnowTalking.vue",
+            "chunkName": "pages/index/essence/SnowTalking",
+            "_name": "_be920d5a"
+          },
+          {
+            "name": "index-essence-SnowTalkingDetail",
+            "path": "SnowTalkingDetail",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\essence\\\\SnowTalkingDetail.vue",
+            "chunkName": "pages/index/essence/SnowTalkingDetail",
+            "_name": "_79fd2504"
+          }
+        ],
+        "_name": "_3790a670"
+      },
+      {
+        "name": "index-loginAndres",
+        "path": "loginAndres",
+        "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\loginAndres.vue",
+        "chunkName": "pages/index/loginAndres",
+        "children": [
+          {
+            "name": "index-loginAndres-login",
+            "path": "login",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\loginAndres\\\\login.vue",
+            "chunkName": "pages/index/loginAndres/login",
+            "_name": "_3ca2d8f2"
+          },
+          {
+            "name": "index-loginAndres-res",
+            "path": "res",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\loginAndres\\\\res.vue",
+            "chunkName": "pages/index/loginAndres/res",
+            "_name": "_138cb2be"
+          }
+        ],
+        "_name": "_9182585c"
+      },
+      {
+        "name": "index-market",
+        "path": "market",
+        "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\market.vue",
+        "chunkName": "pages/index/market",
+        "children": [
+          {
+            "name": "index-market-debtmarket",
+            "path": "debtmarket",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\market\\\\debtmarket.vue",
+            "chunkName": "pages/index/market/debtmarket",
+            "_name": "_882b5b4a"
+          },
+          {
+            "name": "index-market-fundmarket",
+            "path": "fundmarket",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\market\\\\fundmarket.vue",
+            "chunkName": "pages/index/market/fundmarket",
+            "_name": "_75dee20d"
+          },
+          {
+            "name": "index-market-groupdetail",
+            "path": "groupdetail",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\market\\\\groupdetail.vue",
+            "chunkName": "pages/index/market/groupdetail",
+            "_name": "_43748bf4"
+          },
+          {
+            "name": "index-market-grouphotoday",
+            "path": "grouphotoday",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\market\\\\grouphotoday.vue",
+            "chunkName": "pages/index/market/grouphotoday",
+            "_name": "_becb57f2"
+          },
+          {
+            "name": "index-market-hkmarket",
+            "path": "hkmarket",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\market\\\\hkmarket.vue",
+            "chunkName": "pages/index/market/hkmarket",
+            "_name": "_498033cb"
+          },
+          {
+            "name": "index-market-marketCenter",
+            "path": "marketCenter",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\market\\\\marketCenter.vue",
+            "chunkName": "pages/index/market/marketCenter",
+            "_name": "_2d562d7d"
+          },
+          {
+            "name": "index-market-shmarket",
+            "path": "shmarket",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\market\\\\shmarket.vue",
+            "chunkName": "pages/index/market/shmarket",
+            "_name": "_411792c6"
+          },
+          {
+            "name": "index-market-sizer",
+            "path": "sizer",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\market\\\\sizer.vue",
+            "chunkName": "pages/index/market/sizer",
+            "_name": "_e69ccd16"
+          },
+          {
+            "name": "index-market-usmarket",
+            "path": "usmarket",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\market\\\\usmarket.vue",
+            "chunkName": "pages/index/market/usmarket",
+            "_name": "_54ab2fa6"
+          }
+        ],
+        "_name": "_0688ddcc"
+      },
+      {
+        "name": "index-newIndex",
+        "path": "newIndex",
+        "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\newIndex.vue",
+        "chunkName": "pages/index/newIndex",
+        "children": [
+          {
+            "name": "index-newIndex-datashow",
+            "path": "datashow",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\newIndex\\\\datashow.vue",
+            "chunkName": "pages/index/newIndex/datashow",
+            "_name": "_644b64c9"
+          },
+          {
+            "name": "index-newIndex-SevenMultiptDay",
+            "path": "SevenMultiptDay",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\newIndex\\\\SevenMultiptDay.vue",
+            "chunkName": "pages/index/newIndex/SevenMultiptDay",
+            "_name": "_4014827a"
+          },
+          {
+            "name": "index-newIndex-snowhotnew",
+            "path": "snowhotnew",
+            "component": "G:\\\\项目集合\\\\金融信息网\\\\nuxt\\\\pages\\\\index\\\\newIndex\\\\snowhotnew.vue",
+            "chunkName": "pages/index/newIndex/snowhotnew",
+            "_name": "_d6af82d0"
+          }
+        ],
+        "_name": "_a479b8bc"
+      }
+    ],
+    "_name": "_5223d7e0"
+  }
+]

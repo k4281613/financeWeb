@@ -1,0 +1,354 @@
+{
+  "基本指标": [
+    {
+      "name": "动态市盈率",
+      "field": "pettm",
+      "adj": 0
+    },
+    {
+      "name": "净资产收益率",
+      "field": "roediluted_l",
+      "adj": 0
+    },
+    {
+      "name": "总资产收益率",
+      "field": "roa",
+      "adj": 0
+    },
+    {
+      "name": "静态市盈率",
+      "field": "pelyr",
+      "adj": 0
+    },
+    {
+      "name": "EBITDA",
+      "field": "ebitda",
+      "adj": 0
+    },
+    {
+      "name": "每股净资产",
+      "field": "bps_l",
+      "adj": 0
+    },
+    {
+      "name": "股息率",
+      "field": "dy_l",
+      "adj": 0
+    },
+    {
+      "name": "市销率",
+      "field": "psr",
+      "adj": 0
+    },
+    {
+      "name": "股息",
+      "field": "div",
+      "adj": 0
+    },
+    {
+      "name": "市净率",
+      "field": "pb",
+      "adj": 0
+    },
+    {
+      "name": "总市值",
+      "field": "mc",
+      "adj": 0
+    },
+    {
+      "name": "每股收益",
+      "field": "eps_l",
+      "adj": 0
+    },
+    {
+      "name": "利润率",
+      "field": "pm",
+      "adj": 0
+    },
+    {
+      "name": "做空比率",
+      "field": "sr",
+      "adj": 0
+    }
+  ],
+  "雪球指标": [
+    {
+      "name": "累计交易分享数",
+      "field": "deal",
+      "adj": 0
+    },
+    {
+      "name": "一周新增关注",
+      "field": "follow7d",
+      "adj": 0
+    },
+    {
+      "name": "一周交易分享增长率",
+      "field": "deal7dpct",
+      "adj": 0
+    },
+    {
+      "name": "一周讨论增长率",
+      "field": "tweet7dpct",
+      "adj": 0
+    },
+    {
+      "name": "一周新增交易分享数",
+      "field": "deal7d",
+      "adj": 0
+    },
+    {
+      "name": "累计讨论次数",
+      "field": "tweet",
+      "adj": 0
+    },
+    {
+      "name": "累计关注人数",
+      "field": "follow",
+      "adj": 0
+    },
+    {
+      "name": "一周关注增长率",
+      "field": "follow7dpct",
+      "adj": 0
+    },
+    {
+      "name": "一周新增讨论数",
+      "field": "tweet7d",
+      "adj": 0
+    }
+  ],
+  "行情指标": [
+    {
+      "name": "本日涨跌幅",
+      "field": "pct",
+      "adj": 0
+    },
+    {
+      "name": "本日成交量",
+      "field": "volume",
+      "adj": 0
+    },
+    {
+      "name": "成交额",
+      "field": "amount",
+      "adj": 0
+    },
+    {
+      "name": "当前价",
+      "field": "current",
+      "adj": 0
+    },
+    {
+      "name": "本日涨跌额",
+      "field": "chg",
+      "adj": 0
+    },
+    {
+      "name": "本日振幅",
+      "field": "chgpct",
+      "adj": 0
+    },
+    {
+      "name": "200日均线变化幅度",
+      "field": "pcf200dma",
+      "adj": 0
+    },
+    {
+      "name": "50日均线变化幅度",
+      "field": "pcf50dma",
+      "adj": 0
+    },
+    {
+      "name": "本日换手率",
+      "field": "tr",
+      "adj": 0
+    }
+  ],
+  "财务报表": [
+    {
+      "利润表": [
+        {
+          "name": "净利润",
+          "field": "netprofitq",
+          "adj": 1
+        },
+        {
+          "name": "摊薄每股收益",
+          "field": "epsq",
+          "adj": 1
+        },
+        {
+          "name": "毛利总额",
+          "field": "gp",
+          "adj": 1
+        },
+        {
+          "name": "总收入",
+          "field": "tbi",
+          "adj": 1
+        }
+      ]
+    },
+    {
+      "资产负债表": [
+        {
+          "name": "股东权益合计",
+          "field": "te",
+          "adj": 1
+        },
+        {
+          "name": "总负债",
+          "field": "tl",
+          "adj": 1
+        },
+        {
+          "name": "流动负债",
+          "field": "cl",
+          "adj": 1
+        },
+        {
+          "name": "总资产",
+          "field": "ta",
+          "adj": 1
+        },
+        {
+          "name": "流动资产",
+          "field": "ca",
+          "adj": 1
+        }
+      ]
+    },
+    {
+      "现金流量表": [
+        {
+          "name": "资本支出与销售额比率",
+          "field": "ceaps",
+          "adj": 0
+        },
+        {
+          "name": "速动比率",
+          "field": "qr",
+          "adj": 0
+        },
+        {
+          "name": "自由现金流与销售额比",
+          "field": "fcfs",
+          "adj": 0
+        },
+        {
+          "name": "自由现金流",
+          "field": "fcf",
+          "adj": 0
+        },
+        {
+          "name": "自由现金流与净利润比",
+          "field": "fcfni",
+          "adj": 0
+        },
+        {
+          "name": "流动比率",
+          "field": "cr",
+          "adj": 0
+        }
+      ]
+    }
+  ],
+  "成长指标": [
+    {
+      "name": "预测明年市盈率TTM",
+      "field": "peeny",
+      "adj": 0
+    },
+    {
+      "name": "收入同比增长率",
+      "field": "ryoy",
+      "adj": 0
+    },
+    {
+      "name": "营业收入同比增长",
+      "field": "oiyoy",
+      "adj": 0
+    },
+    {
+      "name": "营业收入十年平均增长",
+      "field": "oi10ya",
+      "adj": 0
+    },
+    {
+      "name": "每股收益十年平均增长",
+      "field": "e10ya",
+      "adj": 0
+    },
+    {
+      "name": "营业收入三年平均增长",
+      "field": "oi3ya",
+      "adj": 0
+    },
+    {
+      "name": "营业收入五年平均增长",
+      "field": "oi5ya",
+      "adj": 0
+    },
+    {
+      "name": "预期明年每股收益",
+      "field": "epseny",
+      "adj": 0
+    },
+    {
+      "name": "净利润十年平均增长",
+      "field": "ni10ya",
+      "adj": 0
+    },
+    {
+      "name": "每股收益同比增长",
+      "field": "eyoy",
+      "adj": 0
+    },
+    {
+      "name": "预测5年PEG指标",
+      "field": "pegr",
+      "adj": 0
+    },
+    {
+      "name": "每股收益五年平均增长",
+      "field": "e5ya",
+      "adj": 0
+    },
+    {
+      "name": "净利润同比增长",
+      "field": "niyoy",
+      "adj": 0
+    },
+    {
+      "name": "每股收益三年平均增长",
+      "field": "e3ya",
+      "adj": 0
+    },
+    {
+      "name": "预期下季度每股收益",
+      "field": "epsenq",
+      "adj": 0
+    },
+    {
+      "name": "净利润五年平均增长",
+      "field": "ni5ya",
+      "adj": 0
+    },
+    {
+      "name": "收入3年平均增长率",
+      "field": "r3ya",
+      "adj": 0
+    },
+    {
+      "name": "净利润三年平均增长",
+      "field": "ni3ya",
+      "adj": 0
+    },
+    {
+      "name": "收入10年平均增长率",
+      "field": "r5ya",
+      "adj": 0
+    }
+  ]
+}
