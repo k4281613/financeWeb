@@ -96,7 +96,7 @@ module.exports = {
         try {
             let network = os.networkInterfaces();
             localhost = network[Object.keys(network)[0]][1].address;
-            console.log(localhost, network);
+            console.log(localhost,99);
             return localhost;
         } catch (e) {
             localhost = 'localhost';
@@ -147,7 +147,7 @@ module.exports = {
         const that = this;
         //console.log('开始获取ip');
         return new Promise(async (resolve, reject) => {
-            const options = {
+            /*const options = {
                 method: 'GET',
                 url: apiURL,
             };
@@ -156,24 +156,27 @@ module.exports = {
                 console.log(reply);
                 const expire_time = (new Date(Date.parse(JSON.parse(reply).expire_time.replace(/-/g, '/')))).getTime();
                 if (reply == null || expire_time < Date.now()) {
-                    console.log('当前ip已过期，更新ip');
+                    console.log('当前ip已过期，utf8');
                     const data = await that.test(apiURL,options);
                     resolve(data);
                 } else {
                     console.log('当前ip仍然有效');
                     const ret = JSON.parse(reply).ip + ':' + JSON.parse(reply).port;
-                    resolve(ret);
+                    // resolve(ret);
                 }
             } catch (e) {
                 return reject(e);
-            }
+            }*/
+            resolve(that.getlocalIp());
+
         });
     },
     async getNewIps(apiURL) {
         const that = this;
         //console.log('开始获取ip');
         return new Promise(async (resolve, reject) => {
-            const options = {
+            resolve(that.getlocalIp());
+            /*const options = {
                 method: 'GET',
                 url: apiURL,
             };
@@ -197,7 +200,7 @@ module.exports = {
                 });
             } catch (e) {
                 return reject(e);
-            }
+            }*/
         });
     },
     async getWebCookie(myURL, proxy, timeout, mybool, mockreqURL) {

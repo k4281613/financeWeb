@@ -27,7 +27,6 @@
                     {id:1,name:'首页',path:'/newIndex/datashow'},
                     {id:2,name:'行情',path:'/market/sizer'},
                     {id:3,name:'精华',path:'/essence/SnowTalking'},
-                    {id:4,name:'问答',path:'/questions/hotquestion'},
                 ]
             };
         },
